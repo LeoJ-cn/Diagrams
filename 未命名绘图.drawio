@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-01T23:51:06.391Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.4 Safari/537.36" etag="3eeAc9iiDsnCs-cIAH36" version="14.8.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-02T00:02:24.035Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4549.4 Safari/537.36" etag="fW_HyoAmX16uI0BPf2kY" version="14.8.1" type="github" pages="4">
   <diagram id="9UODJSz-OF72bR3QYP-p" name="第 1 页">
     <mxGraphModel dx="1239" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,6 +258,9 @@
       <root>
         <mxCell id="RXxWTc_u-ZdLTHBXshkJ-0" />
         <mxCell id="RXxWTc_u-ZdLTHBXshkJ-1" parent="RXxWTc_u-ZdLTHBXshkJ-0" />
+        <mxCell id="QKSD9ld_LLAMZM94GI9r-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="RXxWTc_u-ZdLTHBXshkJ-1">
+          <mxGeometry x="210" y="440" width="270" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="RXxWTc_u-ZdLTHBXshkJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RXxWTc_u-ZdLTHBXshkJ-1" source="RXxWTc_u-ZdLTHBXshkJ-6" target="RXxWTc_u-ZdLTHBXshkJ-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -332,6 +335,93 @@
           <mxGeometry x="27.5" y="45" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RXxWTc_u-ZdLTHBXshkJ-49" value="3. View A重新被激活，根据记录&lt;br&gt;回跳路由" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RXxWTc_u-ZdLTHBXshkJ-39">
+          <mxGeometry x="27.5" y="80" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0rJY5KE3yCl_wxwxP-D0" name="第 4 页">
+    <mxGraphModel dx="708" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="4AUBaEoQbIAjZRfn8Aps-0" />
+        <mxCell id="4AUBaEoQbIAjZRfn8Aps-1" parent="4AUBaEoQbIAjZRfn8Aps-0" />
+        <mxCell id="4ROymzRSTYQHnmerM8h8-0" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="210" y="440" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-4" target="4ROymzRSTYQHnmerM8h8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-4" target="4ROymzRSTYQHnmerM8h8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-3" value="router-view" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4ROymzRSTYQHnmerM8h8-2">
+          <mxGeometry x="-0.7211" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-4" value="二级视图状态缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="340" y="290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-7" target="4ROymzRSTYQHnmerM8h8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-7" target="4ROymzRSTYQHnmerM8h8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-7" value="View A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="270" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-8" value="&lt;span&gt;View B&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="430" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-9" value="Comp&lt;br&gt;common" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="220" y="470" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="4AUBaEoQbIAjZRfn8Aps-1" source="4ROymzRSTYQHnmerM8h8-12" target="4ROymzRSTYQHnmerM8h8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-12" value="Component&lt;br&gt;:is=&quot;is&quot;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="330" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-13" value="Comp&lt;br&gt;a1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="280" y="540" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-14" value="Comp&lt;br&gt;a1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="430" y="540" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-15" value="二级视图状态缓存（Component）" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;" vertex="1" parent="4AUBaEoQbIAjZRfn8Aps-1">
+          <mxGeometry x="540" y="270" width="235" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-16" value="实现方案" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-15">
+          <mxGeometry y="20" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-17" value="1. View A 和 ViewB，router-view&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;配置&lt;/span&gt;&lt;span&gt;keep-alive&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-16">
+          <mxGeometry x="30" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-18" value="2. 子视图 a1 和a2，&lt;span&gt;Component&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;配置keep-alive,&amp;nbsp; 有必要的场景&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;使用include更新缓存状态&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-16">
+          <mxGeometry x="30" y="30" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-19" value="注意事项" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-15">
+          <mxGeometry y="140" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-20" value="View A的路由配置，不可以&lt;br&gt;设置redirect， B =&amp;gt; A, 会强制激活&lt;br&gt;redirect的子路由" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-19">
+          <mxGeometry x="30" y="25" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-21" value="重点" style="swimlane;startSize=20;horizontal=0;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-15">
+          <mxGeometry y="260" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-22" value="1. View A的默认跳转逻辑写在 A 的&lt;br&gt;组件activated内" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-21">
+          <mxGeometry x="27.5" y="10" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-23" value="2. 记录A视图下，失去激活前的&lt;br&gt;子路由器" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-21">
+          <mxGeometry x="27.5" y="45" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ROymzRSTYQHnmerM8h8-24" value="3. View A重新被激活，根据记录&lt;br&gt;回跳路由" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="4ROymzRSTYQHnmerM8h8-21">
           <mxGeometry x="27.5" y="80" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
